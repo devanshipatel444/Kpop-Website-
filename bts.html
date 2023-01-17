@@ -1,0 +1,298 @@
+<!DOCTYPE html> 
+
+<html>
+    <link href='./style.css' rel='stylesheet'>
+    <script src="./popup.js"></script>
+    <head>
+        <body>
+            <h1 class="BTS-page-heading">BTS</h1>
+
+            <div class="BTS-Page-Intro">
+                <div class="BTS-Intro-img">
+                    <img src="./BTS 2.png" alt="BTS group picture"/>
+                </div>
+
+                <div class="P-Intro">
+                    <p class="idek">
+                        BTS, also known as Bangtan Sonyeondan or "Beyond the Scene" 
+                        is a famous South Korean group who have debuted since 2013.
+                        The group consists of 7 members: Jin, Suga, J-Hope , RM, V, 
+                        Jimin and Jungkook. To know more about the members
+                        indiividually, please scroll down. Orginally hip hop, over the 
+                        years their music continued ot incorpart many genres of music 
+                        In this page you will find more info. about their songs, albums, 
+                        sales, concerts and about BTS in general.</p>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+            <h2 class="BTS-Members-H">MEMBERS</h2>
+
+            <div class="grid-container-1">
+                <div class="grid-item grid-item-1">
+                    <img id ="Jin-image" src="./Jin 1.png" onclick="myFunction(event);"/>  
+
+                </div>
+                <div class="grid-item grid-item-2">
+                    <img id="Jhope-image" src="./Jhope 1.png" onclick="jhopeFunction(event);"/>
+
+                </div>
+                                    
+                <div class="grid-item grid-item-3">
+                    <img id="NamImage" src="./namjoon 1.png" onclick="namjoonFunction(event);"/>
+                </div>
+                <div class="grid-item grid-item-4">
+                    <img id="SugImage" src="./suga 1.png" onclick="sugaFunction(event);"/>
+
+                </div>
+
+                <div class="grid-item grid-item-5">
+                    <img id ="VImage"src="./v 1.png" onclick="vFunction(event);"/>
+
+                </div>
+
+                <div class="grid-item grid-item-6">
+                    <img id="JM-image"src="./jimin 1.png" onclick="JiminFunction(event);"/>
+
+                </div>
+                
+                <div class="grid-item grid-item-7">
+                    <img id="JK-image" src="./jk 1.png" onclick="JKFunction(event);"/>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div id="Jin-modal" class="modal"> 
+                <span class="closebutton" onclick="closeModal(event)">&times;</span>
+                <img class="modal-content" id="smallerImg" class="Jin-2-image" src="./Jin-2-image"/> 
+                <img class="Jin-pacas" id="paca-1" src="./Jin pacas/paca 1.png"/>
+                <div class="info">
+                    <div id="header"><p><b>Kim Seokjin</b></p></div>
+                    <div class="rest">
+                        <br>
+                        <br>Date of Birth: December 4, 1992
+                        <br>
+                        <br>Birth Place: Gwacheon-si, South Korea
+                        <br>
+                        <br>Singer-songwriter under Hybe Labels. 
+                        <br>
+                        <br>Vocals position
+                    </div>
+                   
+
+
+                    
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div id="Jhope-modal" class="modal"> 
+                <span class="closebutton" onclick="closeModal(event)">&times;</span>
+                <img class="modal-content" id="smallerJImg" class="Jhope-2-image" src="./Jin-2-image"/> 
+                <div class="info">
+                    <div id="header"><p><b>Jung Hoseok</b></p></div>
+                    <div class="rest">
+                        <br>Date of Birth: December 4, 1992
+                        <br>
+                        <br>Birth Place: Gwacheon-si, South Korea
+                        <br>
+                        <br>Singer-songwriter under Hybe Labels. 
+                        <br>
+                        <br>Vocals position
+                    </div>
+                   
+
+
+                    
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div id="Namjoon-modal" class="modal"> 
+                <span class="closebutton" onclick="closeModal(event)">&times;</span>
+                <img class="modal-content" id="smallerNImg" class="namjoon-2-image" src="./namjoon 2.png"/> 
+                <div class="info">
+                    <div id="header"><p><b>Kim Namjoon</b></p></div>
+                    <div class="rest">
+                        <br>Date of Birth: September 12, 1994
+                        <br>
+                        <br>Birth Place: Seoul, South Korea
+                        <br>
+                        <br>Singer-songwriter under Hybe Labels. 
+                        <br>
+                        <br>Rapper position
+                    </div>
+                   
+
+
+                    
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div id="Suga-modal" class="modal"> 
+                <span class="closebutton" onclick="closeModal(event)">&times;</span>
+                <img class="modal-content" id="smallerSImg" class="suga-2-image" src="./suga 2.png"/> 
+                <div class="info">
+                    <div id="header"><p><b>Min Yoon-gi</b></p></div>
+                    <div class="rest">
+                        <br>Date of Birth: March 9, 1993
+                        <br>
+                        <br>Birth Place: Taejeon-dong, South Korea
+                        <br>
+                        <br>Singer-songwriter , under Hybe Labels. 
+                        <br>
+                        <br>Rapper position
+                    </div>
+                   
+
+
+                    
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div id="V-modal" class="modal"> 
+                <span class="closebutton" onclick="closeModal(event)">&times;</span>
+                <img class="modal-content" id="smallerVImg" class="v-2-image" src="./v 2.png"/> 
+                <div class="info">
+                    <div id="header"><p><b>Kim Taehyung</b></p></div>
+                    <div class="rest">
+                        <br>Date of Birth: December 19, 1995
+                        <br>
+                        <br>Birth Place: Bisan-dong, South Korea
+                        <br>
+                        <br>Singer-songwriter , under Hybe Labels. 
+                        <br>
+                        <br>Vocals position
+                    </div>
+                   
+
+
+                    
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div id="Jimin-modal" class="modal"> 
+                <span class="closebutton" onclick="closeModal(event)">&times;</span>
+                <img class="modal-content" id="smallerJMImg" class="jm-2-image" src="./jimin 2.png"/> 
+                <div class="info">
+                    <div id="header"><p><b>Park Jimin</b></p></div>
+                    <div class="rest">
+                        <br>Date of Birth: October 13, 1995
+                        <br>
+                        <br>Birth Place: Busan, South Korea
+                        <br>
+                        <br>Singer-songwriter , under Hybe Labels. 
+                        <br>
+                        <br>Vocals position
+                    </div>
+                   
+
+
+                    
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div id="Jk-modal" class="modal"> 
+                <span class="closebutton" onclick="closeModal(event)">&times;</span>
+                <img class="modal-content" id="smallerJKImg" class="jk-2-image" src="./jk 2.png"/> 
+                <div class="info">
+                    <div id="header"><p><b>Jeon Jungkook</b></p></div>
+                    <div class="rest">
+                        <br>Date of Birth: September 1, 1997
+                        <br>
+                        <br>Birth Place: Busan, South Korea
+                        <br>
+                        <br>Singer-songwriter , under Hybe Labels. 
+                        <br>
+                        <br>Vocals position
+                    </div>
+                   
+
+
+                    
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+            <h2 class="albums">Albums</h2>
+
+            <div class="grid-container-2">
+                <div class="grid-2-item grid-2-item-2">
+
+                    <figure class="bts-album-1">
+                        <a href="./lovetear.html" target="_self"><img src="./Bts Albums/loveyourselftear.png" lat="BTS Love Yourself: Tear almbum picture"/></a>
+                        <figcaption><em>Love Yourself: Tear</em></figcaption>
+
+
+                    </figure>
+                </div>
+
+            </div>
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+   
+        </body>
+
+            
+
+        
+
+        
+    </head>
+
+
+
+
+
+
+</html>

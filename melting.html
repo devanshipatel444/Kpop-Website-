@@ -1,0 +1,247 @@
+<!DOCTYPE html> 
+
+<html>
+    <link href='./style.css' rel='stylesheet'>
+    <script src="./gallery.js"></script>
+
+<head>
+
+    <body>
+
+        <h1 id="melting">Melting</h1>
+
+        <div class="flip-card">
+
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./pictures/Mamamoo/albums/melting-flip.png" style="width:500px;height:500px;">
+                </div> 
+                <div class="flip-card-back">
+                    <h1 id="idk">Melting (2016)</h1> 
+                    <p id="live">First studio album</p> 
+                    <p id="love">13 songs (45:44 mins)</p>
+                </div>
+    
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+       
+        
+    
+        <h2 class="melting-tracks">Tracks</h2>
+
+        <div class="slideshow-box melting-slides">
+
+            <div class="Slides">
+                <iframe class="video-slides"width="800" height="500" src="https://www.youtube.com/embed/h41Rrk_6rzs"></iframe> 
+                <h3 class="caption">Taller than You</h3>
+                    
+            </div>
+
+            
+
+            <div class="Slides">
+                <iframe class="video-slides" width="800" height="500" src="https://www.youtube.com/embed/QbhmTM1cRro"></iframe> 
+                <div class="caption">You're the best</div>
+
+            </div>
+
+            <div class="Slides">
+                <iframe class="video-slides" width="800" height="500" src="https://www.youtube.com/embed/WJawlFRl3Mg"></iframe> 
+                <div class="caption">My Hometown</div>
+            </div>
+
+
+
+
+
+
+          
+
+            <a class="previous" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+        </div>
+
+        <script>showSlides(initial_slide_deck); </script>
+
+        <br> 
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Discography Data </h2>
+        <br>
+        <br>
+        <br> 
+        <br> 
+
+        <div id="chart-container">
+            <div class="child" id="child-1">
+                <canvas id="melting-chart"></canvas>
+            </div>
+
+            <div class="child" id="child-2">
+                <canvas id="melting-sales-chart"></canvas>
+
+            </div>
+        
+        </div>
+
+        <script>
+
+            
+            new Chart('melting-chart', {
+                type: "bar", 
+                data:{
+                    labels: ['Taller than You' , 'You are the best' , 'My Hometown'], 
+                    datasets: [{
+                        label:'# of Plays', 
+                        data: [12.6 , 17.67 , 2.3], 
+                        backgroundColor: [
+                            '#FEC8D8',
+                            '#E0BBE4',
+                            '#ffc09f'
+                        ], 
+                        borderWidth:2,  
+                        borderColor: '#777',
+                        hoverBorderWidth:3, 
+                        hoverBorderColor:'#C71585'
+
+                    }]
+                }, 
+                options: {
+                    title: {
+                        display:true,
+                        text:'Melting Plays on Spotify (In millions)', 
+                        fontSize: 25,
+                        fontColor: "#4C00CE"
+                         
+                        
+                    }, 
+                    legend: {display: false} 
+
+                }
+
+
+            });
+
+            
+
+            new Chart('melting-sales-chart', {
+                type: "bar", 
+                data:{
+                    labels: ['North America' , 'Asia' , 'Europe' , 'Australia'], 
+                    datasets: [{
+                        label:'# of Plays', 
+                        data: [60594 , 96506 , 39495, 9000], 
+                        backgroundColor: [
+                            '#adf7b6',
+                            '#b8e0d2 ',
+                            '#eac4d5',
+                            '#e8dff5 ' 
+
+                        ], 
+                        borderWidth:2,  
+                        borderColor: '#777',
+                        hoverBorderWidth:3, 
+                        hoverBorderColor:'#C71585'
+
+                    }]
+                }, 
+                options: {
+                    title: {
+                        display:true,
+                        text:'Melting Global Album Sales', 
+                        fontSize: 25, 
+                        fontColor: "#4C00CE"
+
+                        
+                    }, 
+                    legend: {display: false} 
+
+                }
+
+
+            });
+
+
+            
+            
+            
+          
+
+
+
+
+        </script>
+
+
+
+
+    </body>
+</head>
+
+
+
+
+
+
+
+</html>
